@@ -1,0 +1,19 @@
+{
+  "name": "object-utilities",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prebuild": "rm -rf dist",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.21",
+    "jest": "24.9.0",
+    "prettier": "1.18.2",
+    "ts-jest": "24.1.0",
+    "typescript": "3.6.4"
+  }
+}
