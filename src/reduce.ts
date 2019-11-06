@@ -7,7 +7,5 @@ export default function reduce<S extends object, V extends ValueOf<S>, A>(
   reducer: Reducer<A, V>,
   accumulator: A,
 ) {
-  return Object.entries(src).reduce((result, [key, value]) => {
-    return reducer(accumulator, key, value)
-  }, accumulator)
+  return Object.entries(src).reduce((result, [key, value]) => reducer(accumulator, key, value), accumulator)
 }
