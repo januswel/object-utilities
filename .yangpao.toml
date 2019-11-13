@@ -5,3 +5,9 @@ Current = "1.0.0"
   Prefix = "  \"version\": \""
   Postfix = "\","
   IsNumber = false
+
+[[Files]]
+  Path = "README.md"
+  Prefix = "# object-utilities "
+  Postfix = ""
+  IsNumber = false
