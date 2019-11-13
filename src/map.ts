@@ -1,4 +1,4 @@
-export type Mapper<V, R> = (key: string, value: V) => R
+type Mapper<V, R> = (key: string, value: V) => R
 
 type ValueOf<T> = T[keyof T]
 

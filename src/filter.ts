@@ -1,4 +1,4 @@
-export type Predicate<V> = (key: string, value: V) => boolean
+type Predicate<V> = (key: string, value: V) => boolean
 
 type ValueOf<T> = T[keyof T]
 

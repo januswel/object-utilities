@@ -1,4 +1,4 @@
-export type Reducer<A, V> = (accumulator: A, key: string, value: V) => A
+type Reducer<A, V> = (accumulator: A, key: string, value: V) => A
 
 type ValueOf<T> = T[keyof T]
 
