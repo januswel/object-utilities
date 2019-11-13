@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "prebuild": "rm -rf dist",
+    "type-check": "tsc --noEmit",
     "test": "jest"
   },
   "devDependencies": {
