@@ -1,4 +1,4 @@
-# object-utilities 1.0.0
+# object-utilities 1.0.1
 
 [![CircleCI](https://circleci.com/gh/januswel/object-utilities/tree/master.svg?style=svg)](https://circleci.com/gh/januswel/object-utilities/tree/master)
 
