@@ -8,7 +8,7 @@
     "build": "tsc -p tsconfig.build.json",
     "prebuild": "rm -rf dist",
     "type-check": "tsc --noEmit",
-    "lint": "eslint $(find src -name '*.ts')",
+    "lint": "eslint --ext .ts src",
     "test": "jest",
     "coverage": "jest --coverage"
   },
